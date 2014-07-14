@@ -19,6 +19,7 @@
 		A80FE6BD197405FA0061B8D6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A80FE6A5197405F90061B8D6 /* UIKit.framework */; };
 		A80FE6C5197405FA0061B8D6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A80FE6C3197405FA0061B8D6 /* InfoPlist.strings */; };
 		A80FE6C7197405FA0061B8D6 /* Objective_C_UtilsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A80FE6C6197405FA0061B8D6 /* Objective_C_UtilsTests.m */; };
+		A80FE6DB197407A40061B8D6 /* AlyaUIUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A80FE6DA197407A40061B8D6 /* AlyaUIUtils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		A80FE6C2197405FA0061B8D6 /* Objective-C-UtilsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Objective-C-UtilsTests-Info.plist"; sourceTree = "<group>"; };
 		A80FE6C4197405FA0061B8D6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A80FE6C6197405FA0061B8D6 /* Objective_C_UtilsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Objective_C_UtilsTests.m; sourceTree = "<group>"; };
+		A80FE6D9197407A40061B8D6 /* AlyaUIUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AlyaUIUtils.h; path = ../../../Utils/AlyaUIUtils.h; sourceTree = "<group>"; };
+		A80FE6DA197407A40061B8D6 /* AlyaUIUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AlyaUIUtils.m; path = ../../../Utils/AlyaUIUtils.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,7 @@
 		A80FE6A7197405F90061B8D6 /* Objective-C-Utils */ = {
 			isa = PBXGroup;
 			children = (
+				A80FE6D4197407700061B8D6 /* Utils */,
 				A80FE6B0197405F90061B8D6 /* AppDelegate.h */,
 				A80FE6B1197405F90061B8D6 /* AppDelegate.m */,
 				A80FE6B3197405F90061B8D6 /* Images.xcassets */,
@@ -142,6 +146,23 @@
 				A80FE6C3197405FA0061B8D6 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A80FE6D4197407700061B8D6 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A80FE6D5197407740061B8D6 /* UIUtils */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		A80FE6D5197407740061B8D6 /* UIUtils */ = {
+			isa = PBXGroup;
+			children = (
+				A80FE6D9197407A40061B8D6 /* AlyaUIUtils.h */,
+				A80FE6DA197407A40061B8D6 /* AlyaUIUtils.m */,
+			);
+			name = UIUtils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,6 +262,7 @@
 			files = (
 				A80FE6B2197405F90061B8D6 /* AppDelegate.m in Sources */,
 				A80FE6AE197405F90061B8D6 /* main.m in Sources */,
+				A80FE6DB197407A40061B8D6 /* AlyaUIUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +461,7 @@
 				A80FE6CC197405FA0061B8D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A80FE6CD197405FA0061B8D6 /* Build configuration list for PBXNativeTarget "Objective-C-UtilsTests" */ = {
 			isa = XCConfigurationList;
@@ -447,6 +470,7 @@
 				A80FE6CF197405FA0061B8D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

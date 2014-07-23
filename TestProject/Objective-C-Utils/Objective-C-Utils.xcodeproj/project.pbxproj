@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E30BE821980491100EDFF1F /* CryptoUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E30BE811980491100EDFF1F /* CryptoUtils.m */; };
 		A80FE6A2197405F90061B8D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A80FE6A1197405F90061B8D6 /* Foundation.framework */; };
 		A80FE6A4197405F90061B8D6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A80FE6A3197405F90061B8D6 /* CoreGraphics.framework */; };
 		A80FE6A6197405F90061B8D6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A80FE6A5197405F90061B8D6 /* UIKit.framework */; };
@@ -33,6 +34,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4E30BE801980491100EDFF1F /* CryptoUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CryptoUtils.h; path = ../../../Utils/CryptoUtils.h; sourceTree = "<group>"; };
+		4E30BE811980491100EDFF1F /* CryptoUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CryptoUtils.m; path = ../../../Utils/CryptoUtils.m; sourceTree = "<group>"; };
 		A80FE69E197405F90061B8D6 /* Objective-C-Utils.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Objective-C-Utils.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A80FE6A1197405F90061B8D6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A80FE6A3197405F90061B8D6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -77,6 +80,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E30BE7F198048FC00EDFF1F /* CryptoUtils */ = {
+			isa = PBXGroup;
+			children = (
+				4E30BE801980491100EDFF1F /* CryptoUtils.h */,
+				4E30BE811980491100EDFF1F /* CryptoUtils.m */,
+			);
+			name = CryptoUtils;
+			sourceTree = "<group>";
+		};
 		A80FE695197405F90061B8D6 = {
 			isa = PBXGroup;
 			children = (
@@ -151,6 +163,7 @@
 		A80FE6D4197407700061B8D6 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				4E30BE7F198048FC00EDFF1F /* CryptoUtils */,
 				A80FE6D5197407740061B8D6 /* UIUtils */,
 			);
 			name = Utils;
@@ -262,6 +275,7 @@
 			files = (
 				A80FE6B2197405F90061B8D6 /* AppDelegate.m in Sources */,
 				A80FE6AE197405F90061B8D6 /* main.m in Sources */,
+				4E30BE821980491100EDFF1F /* CryptoUtils.m in Sources */,
 				A80FE6DB197407A40061B8D6 /* AlyaUIUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

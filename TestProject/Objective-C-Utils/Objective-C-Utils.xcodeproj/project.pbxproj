@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4E30BE821980491100EDFF1F /* CryptoUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E30BE811980491100EDFF1F /* CryptoUtils.m */; };
 		4EC40AF7198832A100272763 /* AlyaValidators.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC40AF6198832A100272763 /* AlyaValidators.m */; };
+		4EC40AFB198985B700272763 /* UserUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC40AFA198985B700272763 /* UserUtils.m */; };
 		A80FE6A2197405F90061B8D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A80FE6A1197405F90061B8D6 /* Foundation.framework */; };
 		A80FE6A4197405F90061B8D6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A80FE6A3197405F90061B8D6 /* CoreGraphics.framework */; };
 		A80FE6A6197405F90061B8D6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A80FE6A5197405F90061B8D6 /* UIKit.framework */; };
@@ -39,6 +40,8 @@
 		4E30BE811980491100EDFF1F /* CryptoUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CryptoUtils.m; path = ../../../Utils/CryptoUtils.m; sourceTree = "<group>"; };
 		4EC40AF5198832A100272763 /* AlyaValidators.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AlyaValidators.h; path = ../../../Utils/AlyaValidators.h; sourceTree = "<group>"; };
 		4EC40AF6198832A100272763 /* AlyaValidators.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AlyaValidators.m; path = ../../../Utils/AlyaValidators.m; sourceTree = "<group>"; };
+		4EC40AF9198985B700272763 /* UserUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserUtils.h; path = ../../../Utils/UserUtils.h; sourceTree = "<group>"; };
+		4EC40AFA198985B700272763 /* UserUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserUtils.m; path = ../../../Utils/UserUtils.m; sourceTree = "<group>"; };
 		A80FE69E197405F90061B8D6 /* Objective-C-Utils.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Objective-C-Utils.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A80FE6A1197405F90061B8D6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A80FE6A3197405F90061B8D6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -99,6 +102,15 @@
 				4EC40AF6198832A100272763 /* AlyaValidators.m */,
 			);
 			name = Checkers;
+			sourceTree = "<group>";
+		};
+		4EC40AF81989859900272763 /* UserUtils */ = {
+			isa = PBXGroup;
+			children = (
+				4EC40AF9198985B700272763 /* UserUtils.h */,
+				4EC40AFA198985B700272763 /* UserUtils.m */,
+			);
+			name = UserUtils;
 			sourceTree = "<group>";
 		};
 		A80FE695197405F90061B8D6 = {
@@ -175,6 +187,7 @@
 		A80FE6D4197407700061B8D6 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				4EC40AF81989859900272763 /* UserUtils */,
 				4EC40AF41988327200272763 /* Checkers */,
 				4E30BE7F198048FC00EDFF1F /* CryptoUtils */,
 				A80FE6D5197407740061B8D6 /* UIUtils */,
@@ -288,6 +301,7 @@
 			files = (
 				A80FE6B2197405F90061B8D6 /* AppDelegate.m in Sources */,
 				A80FE6AE197405F90061B8D6 /* main.m in Sources */,
+				4EC40AFB198985B700272763 /* UserUtils.m in Sources */,
 				4E30BE821980491100EDFF1F /* CryptoUtils.m in Sources */,
 				4EC40AF7198832A100272763 /* AlyaValidators.m in Sources */,
 				A80FE6DB197407A40061B8D6 /* AlyaUIUtils.m in Sources */,
